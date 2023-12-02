@@ -3,11 +3,26 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Home } from './Home';
+import { Counter } from './Counter';
+import { MultipleState } from './MultipleState';
+import { APIDisplay } from './APIDisplay';
+import APIDisplayWithClass from './APIDisplayWithClass';
+import FormFunction from './FormFunction';
+import { Ecommerce } from './Ecommerce';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MyProps from './MyProps';
+import FormInClass from './FormInClass';
+import { SignupFormikForm } from './SignupFormikForm';
+import DataManagement from './DataManagement';
+import SignUpFormValidation from './SignUpFormValidation';
+import FormWithYup from './FormWithYup';
+import { FormBootstarpFormik } from './FormBootstarpFormik';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+   <FormBootstarpFormik/>
   </React.StrictMode>
 );
 
