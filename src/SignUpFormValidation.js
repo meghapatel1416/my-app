@@ -29,12 +29,12 @@ export default function SignUpFormValidation() {
     } else if (empData.lastName.length > 20) {
       errors.lastName = 'Name cannot exceed 20 characters';
     }
+   
 
 
 
 
-
-    return errors;
+ return errors;
   };
   return (
     <div>

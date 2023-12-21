@@ -16,15 +16,15 @@ export default function FormFunction() {
         setData({...data,[e.target.name]:e.target.value})
     }
 
-    const handleInputFirstname = (e) => {
-        setData({...data,firstName:e.target.value})
+    // const handleInputFirstname = (e) => {
+    //     setData({...data,firstName:e.target.value})
 
-    }
+    // }
 
-    const handleInputLastname = (e) => {
-        setData({...data,lastName:e.target.value})
+    // const handleInputLastname = (e) => {
+    //     setData({...data,lastName:e.target.value})
         
-    }
+    // }
   return (
     <form onSubmit={saveInfo}>
         <input type='text' name="firstName" placeholder='please enter firstname' onChange={handleInput}/>

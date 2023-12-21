@@ -18,11 +18,20 @@ import DataManagement from './DataManagement';
 import SignUpFormValidation from './SignUpFormValidation';
 import FormWithYup from './FormWithYup';
 import { FormBootstarpFormik } from './FormBootstarpFormik';
+import MyFormUser from './MyFormUser';
+import Login from './Login';
+import { BrowserRouter } from 'react-router-dom';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <FormBootstarpFormik/>
+     {/* <BrowserRouter>
+     <App/>
+  </BrowserRouter> */}
+  <MultipleState/>
+  
+   
   </React.StrictMode>
 );
 

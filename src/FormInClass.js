@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+//rcc
 export default class FormInClass extends Component {
     state = {
         firstName: "",

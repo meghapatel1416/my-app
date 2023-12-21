@@ -10,3 +10,4 @@ export default class MyChild extends Component {
     )
   }
 }
+
