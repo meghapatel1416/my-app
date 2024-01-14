@@ -11,7 +11,7 @@ export default function DataManagement() {
             country: ""
         }
     });
-
+    // next line for edit 
     const [index, setIndex] = useState(-1);
 
     const [multileData, setMultipleData] = useState([]);
@@ -23,9 +23,9 @@ export default function DataManagement() {
 
     const saveInfo = (e) => {
         e.preventDefault();
-
+        
         let p = [...multileData];
-
+        // p.push(data);  
         if (index == -1) {
             p.push(data);
         }

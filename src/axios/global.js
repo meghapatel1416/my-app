@@ -1,3 +1,4 @@
+//use to pass api globally(more then one page)
 import axios  from "axios";
 import ListAccounts from "../ListAccounts";
 let d = JSON.parse(localStorage.getItem("token"));

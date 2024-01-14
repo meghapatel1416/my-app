@@ -21,15 +21,17 @@ import { FormBootstarpFormik } from './FormBootstarpFormik';
 import MyFormUser from './MyFormUser';
 import Login from './Login';
 import { BrowserRouter } from 'react-router-dom';
+// for router add code in App.js 
+import './axios/global';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-     {/* <BrowserRouter>
-     <App/>
-  </BrowserRouter> */}
-  <MultipleState/>
+     <BrowserRouter>
+     <DataManagement/>
+  </BrowserRouter>
+  {/* <DataManagement/> */}
   
    
   </React.StrictMode>
